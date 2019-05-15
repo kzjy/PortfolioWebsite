@@ -9,7 +9,7 @@
     </head>
     <body>
         <!-- Header -->
-        <header id="header">
+        <header class="header">
             <div class="header-bg"> </div>
             <div class="header-content">
                 <img id="header-avatar" src="images/avatar.jpg">
@@ -21,37 +21,38 @@
         </header>
 
         <div class="container">
+            <div class="content">
+                <!-- Main content -->
+                <div class="main-container">
 
-            <!-- Main content -->
-            <div class="main-container">
+                    <!-- Intro -->
+                    <section class="introduction">
+                        <h1>About Me</h1>
+                        <p>
+                            I am a 3rd year student studying computer science at the University of Toronto. 
+                            My hobbies include playing violin, watching anime, sleeping ... etc.
+                        </p>
+                    </section>
+                    
+                    <!-- Projects -->
+                    <section class="projects">
+                        <h1>Recent Projects</h1>
 
-                <!-- Intro -->
-                <section class="introduction">
-                    <h1>About Me</h1>
-                    <p>
-                        I am a 3rd year student studying computer science at the University of Toronto. 
-                        My hobbies include playing violin, watching anime, sleeping ... etc.
-                    </p>
-                </section>
-                
-                <!-- Projects -->
-                <section class="projects">
-                    <h1>Recent Projects</h1>
-                    <!--Project 1-->
-                    <div class="project-row">
-                        <a href="https://github.com/kzjy/CourseReminder">
-                            <div class="project-picture">
-                                <img src="images/course_re.png">
-                            </div>
-                            <div class="project-description">
-                                <h2>Course: Re</h2>
-                                <p>An android app that helps keep track of past and upcoming course work</p>
-                            </div>
-                        </a>
-                    </div>
+                        <!--Project 1-->
+                        <div class="project-row">
+                            <a href="https://github.com/kzjy/CourseReminder">
+                                <div class="project-picture">
+                                    <img src="images/course_re.png">
+                                </div>
+                                <div class="project-description">
+                                    <h2>Course: Re</h2>
+                                    <p>An android app that helps keep track of past and upcoming course work</p>
+                                </div>
+                            </a>
+                        </div>
 
-                    <!--Project 2-->
-                    <div class="project-row">
+                        <!--Project 2-->
+                        <div class="project-row">
                             <a href="https://github.com/kzjy/DiscordMeowBot">
                                 <div class="project-picture">
                                     <img src="images/meow_bot.png">
@@ -62,80 +63,95 @@
                                 </div>
                             </a>
                         </div>
-                </section>
 
+                        <!--Project 2-->
+                        <div class="project-row">
+                            <a href="https://github.com/kzjy/DiscordMeowBot">
+                                <div class="project-picture">
+                                    <img src="images/cq.png">
+                                </div>
+                                <div class="project-description">
+                                    <h2>CQFishingBot</h2>
+                                    <p>Uses Python OpenCV to automate actions in Crusaders Quest based on image recognition</p>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+                
+                <!-- Asides -->
+                <div class="sub-container">
 
-            </div>
-            
-            <!-- Asides -->
-            <div class="sub-container">
-
-                <!-- Contact-->
-                <section class="contact">
-                    <h1>Contact Me</h1>
-                    <ul>
-                        <li>
-                            <i class="fas fa-map-marker-alt"></i>
-                            Toronto, ON
-                        </li>
-                        <li>
-                            <i class="fas fa-envelope"></i>
-                            kelvinzhangjy@gmail.com
-                        </li>
-                    </ul>
-                </section>
-
-                 <!-- Education -->
-                 <section class="education">
-                        <h1>Education</h1>
+                    <!-- Contact-->
+                    <section class="contact">
+                        <h1>Contact Me</h1>
                         <ul>
                             <li>
-                                <i class="fas fa-graduation-cap"></i>
-                                <h5>BSc Computer Science, Statistics</h4>
-                                <p>University of Toronto (2017 - present)</p>
+                                <i class="fas fa-map-marker-alt"></i>
+                                Toronto, ON
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                kelvinzhangjy@gmail.com
                             </li>
                         </ul>
                     </section>
-                    
 
-                <!-- Skills -->
-                <section class="skills">
-                    <h1>Technical Skills</h1>
-                    <ul>
-                        <li>
-                            <i class="fas fa-check"></i>
-                            Python
-                        </li>
-                        <li>
-                            <i class="fas fa-check"></i>
-                            Java
-                        </li>
-                        <li>
-                            <i class="fas fa-check"></i>
-                            Javascript
-                        </li>
-                        <li>
-                            <i class="fas fa-check"></i>
-                            HTML/CSS
-                        </li>
-                        <li>
-                            <i class="fas fa-check"></i>
-                            C
-                        </li>
-                        <li>
-                            <i class="fas fa-check"></i>
-                            Node.js
-                        </li>
-                        <li>
-                            <i class="fas fa-check"></i>
-                            Selenium
-                        </li>
-                    </ul>
-                </section>
+                    <!-- Education -->
+                    <section class="education">
+                            <h1>Education</h1>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <h5>BSc Computer Science, Statistics</h4>
+                                    <p>University of Toronto (2017 - present)</p>
+                                </li>
+                            </ul>
+                        </section>
+                        
+
+                    <!-- Skills -->
+                    <section class="skills">
+                        <h1>Technical Skills</h1>
+                        <ul>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                Python
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                Java
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                Javascript
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                HTML/CSS
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                C
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                Node.js
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>
+                                Selenium
+                            </li>
+                        </ul>
+                    </section>
+                </div>
 
             </div>
 
-
+            <!-- Bottom bar -->
+            <div class="bottom-bar">
+                <p>Designed by JY Zhang</p>
+            </div>
 
         </div>
     </body>
